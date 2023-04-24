@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5ee9f34ddb85b4eacd8c31038d0dd7, type: 3}
+  m_Name: Premium Cigarrete
+  m_EditorClassIdentifier:
+  itemType: 1
+  itemName: Premium Cigarrete
+  itemPrice: 120
+  consumableType: 0
+  giftType: 0
+  energyGain: 0
+  dateGift:
+  - dateName: Mary
+    dateGain: -3
+  - dateName: Eul
+    dateGain: 5
+  - dateName: Caroline
+    dateGain: -3
+  - dateName: Caitlyn
+    dateGain: 3
+  - dateName: Sherryl
+    dateGain: -3
+  sprite: {fileID: 21300000, guid: 22209ee4df069f847add261cfb75b8d4, type: 2}
+  itemDesc:
+  gDialogue:
+  - partnerName: Mary
+    dTrigger:
+      name:
+      - Mary
+      - Mary
+      sprite:
+      - {fileID: 21300000, guid: 1dd4ff20d80465c42afde9a5753a0143, type: 2}
+      - {fileID: 21300000, guid: 1dd4ff20d80465c42afde9a5753a0143, type: 2}
+      sentences:
+      - No thank you.
+      - I don't smoke.
+  - partnerName: Eul
+    dTrigger:
+      name:
+      - Eul
+      - Eul
+      - Eul
+      sprite:
+      - {fileID: 21300000, guid: e54790b115a749746ac03cfb24b8a71b, type: 2}
+      - {fileID: 21300000, guid: 375f7ec29b8564148b61d026b1e273ec, type: 2}
+      - {fileID: 21300000, guid: e54790b115a749746ac03cfb24b8a71b, type: 2}
+      sentences:
+      - This is a premium one.
+      - I love this.
+      - Thank you.
+  - partnerName: Caroline
+    dTrigger:
+      name:
+      - Caroline
+      - Caroline
+      sprite:
+      - {fileID: 21300000, guid: d6420dc9a7fee17468bd67eedeb21535, type: 2}
+      - {fileID: 21300000, guid: de9eb27c702cc6e409c49329494e635c, type: 2}
+      sentences:
+      - Take it back.
+      - I don't really like this.
+  - partnerName: Caitlyn
+    dTrigger:
+      name:
+      - Caitlyn
+      - Caitlyn
+      sprite:
+      - {fileID: 21300000, guid: 2da4c22928deba54fbbeac2a6418d221, type: 2}
+      - {fileID: 21300000, guid: b7e932ae9a1df7144be760b2bb76626b, type: 2}
+      sentences:
+      - I do want to try this.
+      - Thank you.
+  - partnerName: Sherryl
+    dTrigger:
+      name:
+      - Sherryl
+      - Sherryl
+      sprite:
+      - {fileID: 21300000, guid: 832aae27f232b184698a80c77dbc0461, type: 2}
+      - {fileID: 21300000, guid: 832aae27f232b184698a80c77dbc0461, type: 2}
+      sentences:
+      - Uhm.
+      - No thanks.

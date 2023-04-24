@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5ee9f34ddb85b4eacd8c31038d0dd7, type: 3}
+  m_Name: Trash
+  m_EditorClassIdentifier:
+  itemType: 1
+  itemName: Trash
+  itemPrice: 0
+  consumableType: 0
+  giftType: 0
+  energyGain: 0
+  dateGift:
+  - dateName: Mary
+    dateGain: -10
+  - dateName: Eul
+    dateGain: -10
+  - dateName: Caroline
+    dateGain: -10
+  - dateName: Caitlyn
+    dateGain: -10
+  - dateName: Sherryl
+    dateGain: -10
+  sprite: {fileID: 21300000, guid: b6a3e3f5550921b4195d551a1731ae3e, type: 2}
+  itemDesc: A crumpled paper
+  gDialogue:
+  - partnerName: Mary
+    dTrigger:
+      name:
+      - Mary
+      sprite:
+      - {fileID: 21300000, guid: 1dd4ff20d80465c42afde9a5753a0143, type: 2}
+      sentences:
+      - I don't know what I'm supposed to do with this.
+  - partnerName: Eul
+    dTrigger:
+      name:
+      - Eul
+      sprite:
+      - {fileID: 21300000, guid: d130502c19ff0e0409a0866c1b06ead4, type: 2}
+      sentences:
+      - You think this is funny?
+  - partnerName: Caroline
+    dTrigger:
+      name:
+      - Caroline
+      sprite:
+      - {fileID: 21300000, guid: d6420dc9a7fee17468bd67eedeb21535, type: 2}
+      sentences:
+      - I'm not sure how I'm going to use this.
+  - partnerName: Caitlyn
+    dTrigger:
+      name:
+      - Caitlyn
+      sprite:
+      - {fileID: 21300000, guid: fa35415f7733b2941ac3efeadde49c20, type: 2}
+      sentences:
+      - This is bad, you know that, right?
+  - partnerName: Sherryl
+    dTrigger:
+      name:
+      - Sherryl
+      sprite:
+      - {fileID: 21300000, guid: af4f80cee2f14c7499a754c9a9ee3100, type: 2}
+      sentences:
+      - Really?

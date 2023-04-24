@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5ee9f34ddb85b4eacd8c31038d0dd7, type: 3}
+  m_Name: Ring
+  m_EditorClassIdentifier:
+  itemType: 1
+  itemName: Ring
+  itemPrice: 80
+  consumableType: 0
+  giftType: 0
+  energyGain: 0
+  dateGift:
+  - dateName: Mary
+    dateGain: 3
+  - dateName: Eul
+    dateGain: 5
+  - dateName: Caroline
+    dateGain: 3
+  - dateName: Caitlyn
+    dateGain: 5
+  - dateName: Sherryl
+    dateGain: 3
+  sprite: {fileID: 21300000, guid: c6521e9f923bb0e4fac2986a009cf21e, type: 2}
+  itemDesc:
+  gDialogue:
+  - partnerName: Mary
+    dTrigger:
+      name:
+      - Mary
+      - Mary
+      sprite:
+      - {fileID: 21300000, guid: 8c34074169820344a8d7c62ec6af5bee, type: 2}
+      - {fileID: 21300000, guid: 38897ee6116996d4bb87c64d05fdc61e, type: 2}
+      sentences:
+      - Wow this looks expensive!
+      - Thank you.
+  - partnerName: Eul
+    dTrigger:
+      name:
+      - Eul
+      - Eul
+      sprite:
+      - {fileID: 21300000, guid: 8c96bcdd1225bc547a6752a171b37338, type: 2}
+      - {fileID: 21300000, guid: 9d0fec2321e0e76459d95cd891156a07, type: 2}
+      sentences:
+      - This is nice.
+      - Thanks whatever.
+  - partnerName: Caroline
+    dTrigger:
+      name:
+      - Caroline
+      - Caroline
+      sprite:
+      - {fileID: 21300000, guid: 582ba9998b3084f40927c115ecc8133b, type: 2}
+      - {fileID: 21300000, guid: ae10d6b1106cdf549870518e8ca6c69e, type: 2}
+      sentences:
+      - It's like you're trying to propo...
+      - Never mind what I said. Thank you.
+  - partnerName: Caitlyn
+    dTrigger:
+      name:
+      - Caitlyn
+      - Caitlyn
+      sprite:
+      - {fileID: 21300000, guid: 2da4c22928deba54fbbeac2a6418d221, type: 2}
+      - {fileID: 21300000, guid: 7979ff20dc828a949a5a391636395e85, type: 2}
+      sentences:
+      - I always adore shiny jewelries.
+      - Thank you.
+  - partnerName: Sherryl
+    dTrigger:
+      name:
+      - Sherryl
+      - Sherryl
+      sprite:
+      - {fileID: 21300000, guid: 58b738d1204a5734cb65f42f0e50f938, type: 2}
+      - {fileID: 21300000, guid: ad7e03641818a0f44b55857bd020201f, type: 2}
+      sentences:
+      - You know it's too early to propose right?
+      - I'm just joking. Thanks

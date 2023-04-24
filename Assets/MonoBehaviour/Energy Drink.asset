@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5ee9f34ddb85b4eacd8c31038d0dd7, type: 3}
+  m_Name: Energy Drink
+  m_EditorClassIdentifier:
+  itemType: 0
+  itemName: Energy Drink
+  itemPrice: 45
+  consumableType: 0
+  giftType: 0
+  energyGain: 60
+  dateGift: []
+  sprite: {fileID: 21300000, guid: 2c6ed965ae16a6f46a7af9e11c4d02f3, type: 2}
+  itemDesc: Replenish your stamina with this flavored drink.
+  gDialogue: []

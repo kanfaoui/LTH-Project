@@ -1,0 +1,10 @@
+{
+  "name": "Cinemachine",
+  "references": [
+    "Unity.Timeline",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "clipper_library",
+    "Unity.RenderPipelines.Core.Runtime"
+  ],
+  "allowUnsafeCode": true
+}

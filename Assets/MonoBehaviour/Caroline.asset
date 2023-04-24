@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c0f07680ecd24a88253c6fd9fae1b, type: 3}
+  m_Name: Caroline
+  m_EditorClassIdentifier:
+  pName: Caroline
+  pAttitude: Shy
+  pAge: 22
+  pLocation: Library
+  pChibi: {fileID: 21300000, guid: 2fc9dbc1fb7ec264eb8e4fc5d112f5d2, type: 2}
+  pLikes:
+  - Novel
+  - Ring
+  - Slice of Cake
+  pStory:
+  - CarolineScene1
+  - CarolineScene2
+  pReqStory: 0100000002000000
+  faceSprite:
+  - attire: Normal
+    pGiftFaceSprite:
+    - {fileID: 21300000, guid: e71cb03404e8ad74ab0b1b7d2e11087b, type: 2}
+    - {fileID: 21300000, guid: d6420dc9a7fee17468bd67eedeb21535, type: 2}
+    - {fileID: 21300000, guid: 582ba9998b3084f40927c115ecc8133b, type: 2}
+    - {fileID: 21300000, guid: ae10d6b1106cdf549870518e8ca6c69e, type: 2}
+    - {fileID: 21300000, guid: abf5489c97c39df4aba13a3e4da97d5c, type: 2}
+    - {fileID: 21300000, guid: ed9140ae2c654c748a74f7fc2d9bd465, type: 2}
+    - {fileID: 21300000, guid: de9eb27c702cc6e409c49329494e635c, type: 2}
+  - attire: Beach
+    pGiftFaceSprite:
+    - {fileID: 21300000, guid: 7a1f38fff01372246bbede320179703a, type: 2}
+    - {fileID: 21300000, guid: f30fa9401f3a2044f8e10c058d8dab94, type: 2}
+    - {fileID: 21300000, guid: 74499377c2b85244480a58274452d516, type: 2}
+    - {fileID: 21300000, guid: 56674a9127b650b498ac7bd6a6ae2a78, type: 2}
+    - {fileID: 21300000, guid: 731a91949c1785641aa1c63b397a3b0f, type: 2}
+    - {fileID: 21300000, guid: 78f92ce9cc0216d48adeaeb329a8bfb7, type: 2}
+    - {fileID: 21300000, guid: f59dafe7adb912743b6a5755ed48d941, type: 2}
+  pDescription:

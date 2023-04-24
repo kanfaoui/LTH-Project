@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c0f07680ecd24a88253c6fd9fae1b, type: 3}
+  m_Name: Eul
+  m_EditorClassIdentifier:
+  pName: Eul
+  pAttitude: Mature
+  pAge: 27
+  pLocation: General Store
+  pChibi: {fileID: 21300000, guid: 93c112330691bdc44829098d1a37c859, type: 2}
+  pLikes:
+  - Premium Cigarrete
+  - Necklace
+  - Ring
+  pStory:
+  - EulScene1
+  - EulScene2
+  pReqStory: 0100000002000000
+  faceSprite:
+  - attire: Normal
+    pGiftFaceSprite:
+    - {fileID: 21300000, guid: 91edb10220c2ad04bac4f3256e1f8084, type: 2}
+    - {fileID: 21300000, guid: d130502c19ff0e0409a0866c1b06ead4, type: 2}
+    - {fileID: 21300000, guid: be5a677ad728c504e9dd06ec432ab6dc, type: 2}
+    - {fileID: 21300000, guid: a31ac69df38488b47913f93d5b707e71, type: 2}
+    - {fileID: 21300000, guid: 5834432bddfb54b45a06808aa0af01be, type: 2}
+    - {fileID: 21300000, guid: 9b03746d54ded7346872d673b8181696, type: 2}
+    - {fileID: 21300000, guid: ab4a0c83f58bfd54695d71c483d52ea7, type: 2}
+  - attire: Beach
+    pGiftFaceSprite:
+    - {fileID: 21300000, guid: 8c96bcdd1225bc547a6752a171b37338, type: 2}
+    - {fileID: 21300000, guid: ca0fc6513612f4442a4539cda6599010, type: 2}
+    - {fileID: 21300000, guid: 9d0fec2321e0e76459d95cd891156a07, type: 2}
+    - {fileID: 21300000, guid: 2e79bef7627adc744a950244e053df11, type: 2}
+    - {fileID: 21300000, guid: 375f7ec29b8564148b61d026b1e273ec, type: 2}
+    - {fileID: 21300000, guid: e54790b115a749746ac03cfb24b8a71b, type: 2}
+    - {fileID: 21300000, guid: 3e0ffd30c688cc74492a888506d2452f, type: 2}
+  pDescription:

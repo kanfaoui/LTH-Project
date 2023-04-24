@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c0f07680ecd24a88253c6fd9fae1b, type: 3}
+  m_Name: Sherryl
+  m_EditorClassIdentifier:
+  pName: Sherryl
+  pAttitude: Playful
+  pAge: 23
+  pLocation: Beach
+  pChibi: {fileID: 21300000, guid: f3fb36888339f6c479d6e24a3f8a2160, type: 2}
+  pLikes:
+  - Plush Toy
+  - Necklace
+  - Slice of Cake
+  pStory:
+  - SherrylScene1
+  - SherrylScene2
+  pReqStory: 0100000002000000
+  faceSprite:
+  - attire: Normal
+    pGiftFaceSprite:
+    - {fileID: 21300000, guid: 58b738d1204a5734cb65f42f0e50f938, type: 2}
+    - {fileID: 21300000, guid: ad7e03641818a0f44b55857bd020201f, type: 2}
+    - {fileID: 21300000, guid: 9afd6478cccd94044b240f8212106e2f, type: 2}
+    - {fileID: 21300000, guid: 73579fc194a1c1f45aa20eef2aface2e, type: 2}
+    - {fileID: 21300000, guid: af4f80cee2f14c7499a754c9a9ee3100, type: 2}
+    - {fileID: 21300000, guid: aef2945d0c6979341b60950ea0993d92, type: 2}
+    - {fileID: 21300000, guid: 98eb77bdd088f8745a79ef773d261a0b, type: 2}
+    - {fileID: 21300000, guid: 832aae27f232b184698a80c77dbc0461, type: 2}
+    - {fileID: 21300000, guid: c0e08bf072d110248a322cbc910fefd0, type: 2}
+    - {fileID: 21300000, guid: 07020b7f0344e63469f7631816f457ad, type: 2}
+    - {fileID: 21300000, guid: c607649fc3d37c94fbf0bc6c151c59c7, type: 2}
+    - {fileID: 21300000, guid: 33a206f0a0e342e47b99bb89c7d5c8d0, type: 2}
+  - attire: Beach
+    pGiftFaceSprite:
+    - {fileID: 21300000, guid: 7bb413189af30ad49aff331b64229109, type: 2}
+    - {fileID: 21300000, guid: 62535985d8df82b4a835d5b5178b4ea7, type: 2}
+    - {fileID: 21300000, guid: f5053cbc76d1d124b893d0abd5311ae9, type: 2}
+    - {fileID: 21300000, guid: 5bc08b8bd3da01945842f409d075b675, type: 2}
+    - {fileID: 21300000, guid: 8c341d3b1a84d8147bdcf49423675cf2, type: 2}
+    - {fileID: 21300000, guid: 887aeb270fe3f014abd16e9a43d4a8c3, type: 2}
+    - {fileID: 21300000, guid: dd452754985b3954d9204967d0399b21, type: 2}
+    - {fileID: 21300000, guid: 80c4afbaee5896e4fb7bbb0abaaa29ea, type: 2}
+    - {fileID: 21300000, guid: b38daf3c71c2fb34196c86f76072191f, type: 2}
+    - {fileID: 21300000, guid: 0ebbc77930b9ab74e880c0bea3769a00, type: 2}
+    - {fileID: 21300000, guid: d145b158240bd9943a0b893484e36750, type: 2}
+    - {fileID: 21300000, guid: e6dba357a19556841bf4504778d8991d, type: 2}
+  pDescription:

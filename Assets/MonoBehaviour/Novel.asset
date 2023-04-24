@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5ee9f34ddb85b4eacd8c31038d0dd7, type: 3}
+  m_Name: Novel
+  m_EditorClassIdentifier:
+  itemType: 1
+  itemName: Novel
+  itemPrice: 100
+  consumableType: 0
+  giftType: 0
+  energyGain: 0
+  dateGift:
+  - dateName: Mary
+    dateGain: -3
+  - dateName: Eul
+    dateGain: 3
+  - dateName: Caroline
+    dateGain: 5
+  - dateName: Caitlyn
+    dateGain: 3
+  - dateName: Sherryl
+    dateGain: -3
+  sprite: {fileID: 21300000, guid: b6f53083dc876044eaf5b7e7b3764b63, type: 2}
+  itemDesc:
+  gDialogue:
+  - partnerName: Mary
+    dTrigger:
+      name:
+      - Mary
+      sprite:
+      - {fileID: 21300000, guid: 1dd4ff20d80465c42afde9a5753a0143, type: 2}
+      sentences:
+      - I don't have much interest in reading novels.
+  - partnerName: Eul
+    dTrigger:
+      name:
+      - Eul
+      - Eul
+      sprite:
+      - {fileID: 21300000, guid: 91edb10220c2ad04bac4f3256e1f8084, type: 2}
+      - {fileID: 21300000, guid: 9b03746d54ded7346872d673b8181696, type: 2}
+      sentences:
+      - I could use this in my free time.
+      - Thanks.
+  - partnerName: Caroline
+    dTrigger:
+      name:
+      - Caroline
+      - Caroline
+      sprite:
+      - {fileID: 21300000, guid: ed9140ae2c654c748a74f7fc2d9bd465, type: 2}
+      - {fileID: 21300000, guid: abf5489c97c39df4aba13a3e4da97d5c, type: 2}
+      sentences:
+      - Yay, another one for my collection.
+      - Thank you.
+  - partnerName: Caitlyn
+    dTrigger:
+      name:
+      - Caitlyn
+      - Caitlyn
+      sprite:
+      - {fileID: 21300000, guid: 2da4c22928deba54fbbeac2a6418d221, type: 2}
+      - {fileID: 21300000, guid: b7e932ae9a1df7144be760b2bb76626b, type: 2}
+      sentences:
+      - This is really nice.
+      - Thank you.
+  - partnerName: Sherryl
+    dTrigger:
+      name:
+      - Sherryl
+      - Sherryl
+      sprite:
+      - {fileID: 21300000, guid: 832aae27f232b184698a80c77dbc0461, type: 2}
+      - {fileID: 21300000, guid: 832aae27f232b184698a80c77dbc0461, type: 2}
+      sentences:
+      - I shouldn't take this.
+      - I am not a book nerd.

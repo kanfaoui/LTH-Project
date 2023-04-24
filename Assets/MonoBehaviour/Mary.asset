@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c0f07680ecd24a88253c6fd9fae1b, type: 3}
+  m_Name: Mary
+  m_EditorClassIdentifier:
+  pName: Mary
+  pAttitude: Friendly
+  pAge: 21
+  pLocation: '???'
+  pChibi: {fileID: 21300000, guid: ee2ecad2c062fb14e9fbb892ae8caf86, type: 2}
+  pLikes:
+  - Rose
+  - Plush Toy
+  - Perfume
+  pStory:
+  - MaryScene1
+  - MaryScene2
+  pReqStory: 0100000002000000
+  faceSprite:
+  - attire: Normal
+    pGiftFaceSprite:
+    - {fileID: 21300000, guid: cff569f1a5706154999a97b721241afd, type: 2}
+    - {fileID: 21300000, guid: 38897ee6116996d4bb87c64d05fdc61e, type: 2}
+    - {fileID: 21300000, guid: 8c34074169820344a8d7c62ec6af5bee, type: 2}
+    - {fileID: 21300000, guid: 1dd4ff20d80465c42afde9a5753a0143, type: 2}
+    - {fileID: 21300000, guid: e1fa9407a1e0dbf499cd80ed8e1356fd, type: 2}
+    - {fileID: 21300000, guid: 5ee5f0f35e3e263439a39ba3c9342b02, type: 2}
+  - attire: Beach
+    pGiftFaceSprite:
+    - {fileID: 21300000, guid: 987adcbc83fd3454db891be85af5e1c7, type: 2}
+    - {fileID: 21300000, guid: d9d48dcd2f7285c48aacea8536794520, type: 2}
+    - {fileID: 21300000, guid: b1cd10c5646df0546bd4c6cdb1cedf89, type: 2}
+    - {fileID: 21300000, guid: a4967fb88d8268e40b24360c666601c9, type: 2}
+    - {fileID: 21300000, guid: f6fc4393a661abd45aadd26d897abbd7, type: 2}
+    - {fileID: 21300000, guid: a4270652874fa8b4aac1f96fe6edda35, type: 2}
+  pDescription:
